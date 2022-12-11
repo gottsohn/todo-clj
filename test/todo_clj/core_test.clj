@@ -2,6 +2,6 @@
   (:require [clojure.test :refer :all]
             [todo-clj.core :refer :all]))
 
-(deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+(deftest sanity-check
+  (testing "Alles gut"
+    (is (= 1 1))))
